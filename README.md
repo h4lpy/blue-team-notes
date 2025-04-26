@@ -22,7 +22,7 @@ PS1='\[\033[00;35m\][`date -u +"%Y-%m-%d %T %Z"]` ${debian_chroot:+($debian_chro
 $ source ~/.bashrc
 ```
 
-![[images/Pasted image 20241222160516.png]]
+![](/images/bash_prompt.png)
 
 Other: [How To Customize and Colorize your Bash Prompt - HowToGeek](https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/)
 
@@ -39,7 +39,7 @@ function prompt{ "[$(Get-Date)]" +" | PS "+ "$(Get-Location) > "}
 PS > Set-ExecutionPolicy RemoteSigned
 ```
 
-![[images/Pasted image 20241222161713.png]]
+![](/images/powershell_prompt.png)
 
 #### CMD
 
@@ -50,7 +50,7 @@ PS > Set-ExecutionPolicy RemoteSigned
 :: $H are to remove the additional microsecond timestamp from $T
 ```
 
-![[images/Pasted image 20250223162244.png]]
+![](/images/cmd_prompt.png)
 
 
 
